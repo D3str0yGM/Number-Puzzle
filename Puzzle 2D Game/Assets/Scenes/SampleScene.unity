@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2268d224c385e47b0f3f3481d279c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Menu: {fileID: 994741235}
+  Menu: {fileID: 337215522}
   boxPrefab: {fileID: 3339145022419118509, guid: 26dc7be4be91a154fab2038d43775976, type: 3}
   sprites:
   - {fileID: 21300000, guid: 867de86f82fef2546a24641733104c16, type: 3}

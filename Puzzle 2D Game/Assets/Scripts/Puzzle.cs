@@ -60,9 +60,16 @@ public class Puzzle : MonoBehaviour
         {
             Menu.SetActive(true);
         }
+        else
+        {
+Menu.SetActive(false);
+        }
     }
 
+    private void Awake()
+    {
 
+    }
     public void Restart()
     {
         SceneManager.LoadScene(0);
@@ -78,8 +85,9 @@ public class Puzzle : MonoBehaviour
         }
 
 
-        for (int i = 0; i < 99; i++)
+        for (int i = 0; i < 3; i++)
             Shuffle();
+        Menu.SetActive(false);
     }
 
     void Init()
